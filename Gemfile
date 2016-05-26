@@ -25,6 +25,7 @@ gem 'jbuilder', '~> 2.0'
 # gem 'redis', '~> 3.0'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
+gem 'pry'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
@@ -41,6 +42,10 @@ group :development, :test do
 end
 
 group :development do
+  gem 'guard'
+  gem 'guard-minitest'
+  gem 'guard-rails'
+  gem 'bundler'
   gem 'web-console'
   gem 'listen', '~> 3.0.5'
   
