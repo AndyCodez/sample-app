@@ -6,6 +6,8 @@ gem 'rails', '>= 5.0.0.rc1', '< 5.1'
 gem "bootstrap-sass"
 gem 'bcrypt'
 gem 'faker'
+gem 'will_paginate'
+gem 'bootstrap-will_paginate'
 
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
