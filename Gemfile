@@ -5,6 +5,7 @@ source 'https://rubygems.org'
 gem 'rails', '>= 5.0.0.rc1', '< 5.1'
 gem "bootstrap-sass"
 gem 'bcrypt'
+gem 'faker'
 
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
