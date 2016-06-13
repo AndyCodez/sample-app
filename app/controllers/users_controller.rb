@@ -16,7 +16,9 @@ class UsersController < ApplicationController
   	@user = User.new(user_params) 
   	if @user.save
       @user.send_activation_email
-      UserMailer.account_activation(@user).deliver_now
+      #I am commenting the line below coz I feel it is only
+      #sending the activation email again. Making it twice
+      # UserMailer.account_activation(@user).deliver_now
       flash[:info] = "Please check your email to activate your account."
       redirect_to root_url
   	else
