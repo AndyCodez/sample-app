@@ -9,7 +9,7 @@ class UserMailerPreview < ActionMailer::Preview
   end
 
   # Preview this email at http://localhost:3000/rails/mailers/user_mailer/password:reset
-  def password:reset
+  def password_reset
     UserMailer.password_reset
   end
 
