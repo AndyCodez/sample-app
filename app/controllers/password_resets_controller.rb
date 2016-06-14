@@ -13,6 +13,7 @@ class PasswordResetsController < ApplicationController
   	else
   		flash[:danger] = "Email address not found"
  		render 'new'
+ 	end
   end
 
   def edit
