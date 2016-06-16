@@ -6,7 +6,7 @@ class RelationshipTest < ActiveSupport::TestCase
 	end
 
 	test "should be valid" do
-		# assert @relationship.valid?
+		assert @relationship.valid?
 	end
 
 	test "should require a follower_id" do
